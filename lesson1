@@ -1,0 +1,50 @@
+Q - How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was helpful. Easy to see.
+
+Instructions on how to launch it:
+
+1. Launch terminal
+2. Navigate to directory with files
+3. Diff -u file_old.js file_new.js (order is important here otherwise you reverse result)
+4. read the output; - is what is no longer in the new file; + is what is new in the new file
+
+
+//
+Version control saving.
+
+How would you design a new version control systsm.
+-  When would you want to have a version of your code saved.
+
+//
+ What do you think are the pros and cons of
+manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved,
+like Google docs does?
+>> automatic committs may create lots of little files with insignificant changes
+>> in manual committs, it may be too many changes at once, but it gives you more control
+
+//
+Why do you think some version control systems,
+like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+ >> Seems like when you are coding, you have a separation of
+ concerns into differnet files. Some changes can affect all
+ files so they need to be saved simultaneously in one commit.
+
+//
+How can you use the commands git log and git diff to view the history of files?
+
+>> git log: shows you all the committs for the file you're asking.
+Ex. git log game.js
+>> git diff: shows the differences b/w 2 committs based on the commit ID.
+Each commit has it's own ID.
+Ex. git diff 12345 1234566
+
+//
+How might using version control make you more confident
+ to make changes that could break something?
+>> It is easy to revert to older versions, and use git diff to see what exactly
+had changed between successive commits.
+
+
