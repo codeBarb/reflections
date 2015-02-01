@@ -2,4 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 
 >> In terminal, enter git init
 >> initializes the files
->> initializes the files
+
+//
+
+How is the staging area different from the working directory
+and the repository?
+>> Working directory is only what's my local hard drive. Staging area is on git.
+I will be able to track versions when it's on git (not only my hard drive)
+
+What value do you think it offers?
+>> Using the version history.
