@@ -47,4 +47,38 @@ How might using version control make you more confident
 >> It is easy to revert to older versions, and use git diff to see what exactly
 had changed between successive commits.
 
+//
+
+How can you use the staging area to make sure you have one commit per logical change?
+>> I can add as many or as few files as I want and then commit the staging
+area at one time. Helps keep track of work, but also allows flex to submit when ready.
+
+
+//
+What are some situations when branches would be helpful
+in keeping your history organized? How would branches help?
+>> When working with different people you can each work on a feature branch;
+>> When you don't want to mess up the master, and experiment with different sets for perhaps usertesting.
+
+//
+
+How do the diagrams help you visualize the branch structure?
+>> helps you visualize what code you're working on and what will/won't be part of the change.
+
+//
+
+What is the result of merging two branches together?
+ Why do we represent it in the diagram the way we do?
+>> Bringing in the new features/changes from the branch into the master branch.
+>> Helps programmer vizualize at what commit changes were added.
+
+//
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+>> Pros of automatic v. manual merging: simplifies the commit; good for minor & obvious changes
+>> Cons of automatic v. manual merging: not good when you've re-written functions better for instance;
+ the user would need to determine which should be better
+
+
+
 
