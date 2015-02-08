@@ -8,3 +8,12 @@ having Git automatically stay up-to-date with your remote repository?
 
 >> Seems disruptive to always have new code potentially changing your
 local file. It may not be tested and ready to go.
+
+//
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+>> Fork: when I copy someone else's github project to mine, so i can use it/modify without affecting their copy
+>> Clone: when i've forked a project, i clone it to my local to make changes
+>> Branches: the differences from master & branches. for when i want to change but not affect master
