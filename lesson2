@@ -12,3 +12,19 @@ I will be able to track versions when it's on git (not only my hard drive)
 
 What value do you think it offers?
 >> Using the version history.
+
+
+Pushing repo to github:
+1. create repo in github
+2. in terminal, navigate to folder
+then...
+
+git remote
+barb (master *) reflections $ git remote add origin https://github.com/codeBarb/reflections.git
+barb (master *) reflections $ git remote
+origin
+barb (master *) reflections $ git remote -v
+origin	https://github.com/codeBarb/reflections.git (fetch)
+origin	https://github.com/codeBarb/reflections.git (push)
+barb (master *) reflections $ git push -u origin master
+>>> need to use -u in oder to enter username & password for github; then it will add it
